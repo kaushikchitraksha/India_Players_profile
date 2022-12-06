@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/player_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:src="@drawable/rohitsharma"/>
+            <TextView
+                android:id="@+id/player_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="35dp"
+                android:gravity="bottom"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:text="Rohit Sharma"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:text="Role:"/>
+            <TextView
+                android:id="@+id/player_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                tools:text="Right Hand Batsman"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="9dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="ICC Rankings"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height= "wrap_content"
+                android:textSize="23dp"
+                android:text="Test"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textSize="23dp"
+                android:text="ODI"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textSize="23dp"
+                android:text="T20"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/test_rank"
+                android:layout_width="wrap_content"
+                android:layout_height= "wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="23dp"
+                tools:text="0"/>
+            <TextView
+                android:id="@+id/ODI_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:textSize="23dp"
+                tools:text="0"/>
+            <TextView
+                android:id="@+id/T20_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:textSize="23dp"
+                tools:text="0"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
